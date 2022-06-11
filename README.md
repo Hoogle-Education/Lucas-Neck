@@ -1,3 +1,2 @@
-# Lucas Neck
+# Lucas Neck - SQL
 
-Material das aulas sobre SQL com MySQL.
