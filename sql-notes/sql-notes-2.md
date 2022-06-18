@@ -42,6 +42,23 @@ Podemos usar este comando nas ***query*'s** para evitar que tabelas sejam criada
 CREATE TABLE IF NOT EXISTS minha_tabela
 ```
 
+## Colocando colunas na tabela
+
+Para colocarmos colunas na tabela, precisamos declarar variáveis para cada uma de suas colunas.
+
+### [PRINCIPAIS TIPOS DE VARIÁVEIS EM SQL](https://www.geeksforgeeks.org/postgresql-data-types/)
+
+```SQL
+  CREATE TABLE IF NOT EXISTS aluno ( 
+    nome varchar(35) primary key,
+    idade int not null,
+  )
+```
+
+```
+[nome_da_variavel] [tipo] [especificações]
+```
+
 ## **Views** - Comando `SELECT`
 
 O comando `SELECT` possui uma extensão grande já que envolve uma grande parte das views que criamos.
